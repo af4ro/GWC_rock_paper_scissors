@@ -1,0 +1,22 @@
+img {
+            width: 30%;
+            height: inherit;
+        }
+        
+        h2 {
+            color: #EFEFEF;
+            letter-spacing: 2px;
+            font-size: 40px;
+            padding: 20px 10px;
+            text-align: center;
+            background-color: #222;
+            border-radius: 15px 15px 15px 15px;
+        }
+        
+        .img_container {
+            align-content: center;
+            vertical-align: top;
+            display: inline-flex;
+            width: 100%;
+            padding: 0px;
+        }
