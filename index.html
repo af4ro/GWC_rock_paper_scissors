@@ -1,16 +1,34 @@
 <html>
 
 <head>
-    <h2> Rock Paper Scissor</h2>
+    <h1>Rock Paper Scissors</h1>
 </head>
 
 <body>
-    <link rel="stylesheet" href="style.css">
+    <!-- The headings are here --> 
+    <h2>Choose your tool</h2>
     <div class="img_container">
-        <img src='rps1.jpg'></img>
-        <img src='rps2.jpg'></img>
-        <img src='rps3.jpg'></img>
+        
+        <!-- All the images are in this div-->
+        
+        <img src="https://s6.postimg.org/3p1ryypfl/rps1.jpg" onclick="computeCompChoice(), userChoiceFunc('paper'), findResult()">
+        
+        <img src="https://s6.postimg.org/nxp5kooqp/rps2.jpg" onclick="computeCompChoice(), userChoiceFunc('scissors'), findResult()">
+        
+        <img src="https://s6.postimg.org/80qdnywch/rps3.jpg" onclick="computeCompChoice(), userChoiceFunc('rock'), findResult()">
+        
     </div>
+    
+    <div id="text_output">
+        <!-- The outputs go in here -->
+        <h3 id="userOutput"></h3>
+        <h3 id="computerOutput"></h3>
+        <h3 id="result"></h3>
+        
+    </div>
+    
+    <link rel="stylesheet" href="style.css">
+    <script type="application/javascript" src="app.js"></script>
 </body>
 
 </html>
